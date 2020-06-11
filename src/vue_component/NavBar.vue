@@ -15,7 +15,6 @@ export default {
     name: 'NavBar',
     methods : {
         switchTab (tab) {
-			console.log(this);
             this.$emit('switchTab', tab)
         }
     }
