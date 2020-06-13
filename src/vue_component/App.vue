@@ -41,4 +41,11 @@ body {
   padding: 0;
 }
 
+.symbol-type {
+	text-align: center;
+	width: 100%;
+	background-color: rgba(159, 58, 218, 0.747);
+	color: white;
+}
+
 </style>
