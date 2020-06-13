@@ -70,5 +70,6 @@ export default {
 .wrapper {
 	display: flex;
 	padding: 10px;
+	overflow-x: auto;
 }
 </style>
