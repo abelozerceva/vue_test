@@ -64,11 +64,11 @@ table {
 }
 
 @media screen and (max-device-width: 840px) {
-  	.table-row__th-total_hide {
+  	.table-row__th-total_hide, .table-row__td-total_hide {
 		display: none;
-  	}
-	.table-row__td-total_hide {
-		display: none;
+	}
+	.table-row__th, .table-row__td {
+		width: 50%;
 	}
 }
 </style>
