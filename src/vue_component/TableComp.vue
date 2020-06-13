@@ -71,7 +71,7 @@ table {
 		width: 50%;
 	}
 	.wrapTable .wrapTable__body {
-		height: 65vh;
+		height: 60vh;
 	}
 }
 </style>
