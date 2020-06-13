@@ -70,5 +70,8 @@ table {
 	.table-row__th, .table-row__td {
 		width: 50%;
 	}
+	.wrapTable .wrapTable__body {
+		height: 65vh;
+	}
 }
 </style>
