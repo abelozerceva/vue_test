@@ -15,7 +15,6 @@
         "lodash": "^4.17.15"
     },
     "devDependencies": {
-        "axios": "^0.19.2",
         "babel-core": "^6.26.3",
         "babel-loader": "^8.1.0",
         "babel-plugin-transform-runtime": "*",
