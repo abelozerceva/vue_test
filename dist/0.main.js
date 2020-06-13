@@ -1,38 +1,38 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],{
 
-/***/ 49:
+/***/ 57:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(57);
+var content = __webpack_require__(65);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var add = __webpack_require__(9).default
+var add = __webpack_require__(13).default
 var update = add("3b9b001b", content, false, {});
 // Hot Module Replacement
 if(false) {}
 
 /***/ }),
 
-/***/ 56:
+/***/ 64:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_style_loader_dist_cjs_js_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_dist_cjs_js_ref_2_3_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_sass_loader_dist_cjs_js_ref_2_4_node_modules_vue_loader_lib_index_js_vue_loader_options_DiffList_vue_vue_type_style_index_0_id_135a2ab2_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(49);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_style_loader_dist_cjs_js_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_dist_cjs_js_ref_2_3_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_sass_loader_dist_cjs_js_ref_2_4_node_modules_vue_loader_lib_index_js_vue_loader_options_DiffList_vue_vue_type_style_index_0_id_135a2ab2_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(57);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_style_loader_dist_cjs_js_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_dist_cjs_js_ref_2_3_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_sass_loader_dist_cjs_js_ref_2_4_node_modules_vue_loader_lib_index_js_vue_loader_options_DiffList_vue_vue_type_style_index_0_id_135a2ab2_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_node_modules_style_loader_dist_cjs_js_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_dist_cjs_js_ref_2_3_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_sass_loader_dist_cjs_js_ref_2_4_node_modules_vue_loader_lib_index_js_vue_loader_options_DiffList_vue_vue_type_style_index_0_id_135a2ab2_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
 /* unused harmony reexport * */
  /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_vue_style_loader_index_js_node_modules_style_loader_dist_cjs_js_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_dist_cjs_js_ref_2_3_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_sass_loader_dist_cjs_js_ref_2_4_node_modules_vue_loader_lib_index_js_vue_loader_options_DiffList_vue_vue_type_style_index_0_id_135a2ab2_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
-/***/ 57:
+/***/ 65:
 /***/ (function(module, exports, __webpack_require__) {
 
-var api = __webpack_require__(8);
-            var content = __webpack_require__(58);
+var api = __webpack_require__(12);
+            var content = __webpack_require__(66);
 
             content = content.__esModule ? content.default : content;
 
@@ -53,14 +53,14 @@ module.exports = content.locals || {};
 
 /***/ }),
 
-/***/ 58:
+/***/ 66:
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
 
 /***/ }),
 
-/***/ 60:
+/***/ 68:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -111,29 +111,17 @@ var render = function() {
           ])
         }),
         0
-      ),
-      _vm._m(0)
+      )
     ])
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "list" }, [
-      _c("li", { staticClass: "list__content" })
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
 // CONCATENATED MODULE: ./src/vue_component/DiffList.vue?vue&type=template&id=135a2ab2&scoped=true&lang=pug&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/vue_component/DiffList.vue?vue&type=script&lang=js&
-//
-//
 //
 //
 //
@@ -160,10 +148,10 @@ render._withStripped = true
 // CONCATENATED MODULE: ./src/vue_component/DiffList.vue?vue&type=script&lang=js&
  /* harmony default export */ var vue_component_DiffListvue_type_script_lang_js_ = (DiffListvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./src/vue_component/DiffList.vue?vue&type=style&index=0&id=135a2ab2&scoped=true&lang=scss&
-var DiffListvue_type_style_index_0_id_135a2ab2_scoped_true_lang_scss_ = __webpack_require__(56);
+var DiffListvue_type_style_index_0_id_135a2ab2_scoped_true_lang_scss_ = __webpack_require__(64);
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(2);
+var componentNormalizer = __webpack_require__(7);
 
 // CONCATENATED MODULE: ./src/vue_component/DiffList.vue
 
