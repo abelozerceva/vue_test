@@ -72,6 +72,7 @@ table {
 	}
 	.wrapTable .wrapTable__body {
 		height: 60vh;
+		overflow-y: overlay;
 	}
 }
 </style>
